@@ -1,0 +1,53 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "A access role manager application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Vue.js",
+    "Vuejs",
+    "Vue",
+    "Node.js",
+    "Nodejs",
+    "Node",
+    "MongoDB",
+    "Mongo",
+    "Express.js",
+    "Expressjs",
+    "Express"
+  ],
+  "author": "VoidBits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://www.voidbits.com"
+  },
+  "homepage": "https://www.voidbits.com",
+  "_moduleAliases": {
+    "@root": ".",
+    "@Manager": "./services/ManagerAPI",
+    "@ManagerModels": "./services/ManagerAPI/app/models",
+    "@ManagerAPI": "./services/ManagerAPI/config/app.js",
+    "@config": "./services/ManagerAPI/config/index.js"
+  },
+  "dependencies": {
+    "acl": "^0.4.11",
+    "bcrypt": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "module-alias": "^2.0.1",
+    "mongoose": "^4.12.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0"
+  }
+}
