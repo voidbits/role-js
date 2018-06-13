@@ -1,5 +1,5 @@
 # role-js
-A role based authorization with acl and passport
+A role based authorization with passport
 
 Make sure you have mongodb installed.
 
