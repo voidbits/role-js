@@ -11,9 +11,6 @@ const express = require('express'),
       config = require('./index.js'),
       database = require('./database')(mongoose, config);
 
-var acl = require('acl');
-acl = new acl(new acl.mongodbBackend(mongoose.connection, null));
-
 app.use(express.static('.'));
 app.use(bodyParser.urlencoded({
       extended: true

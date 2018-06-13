@@ -37,7 +37,6 @@
     "@config": "./services/ManagerAPI/config/index.js"
   },
   "dependencies": {
-    "acl": "^0.4.11",
     "bcrypt": "^2.0.0",
     "body-parser": "^1.18.2",
     "consign": "^0.1.6",
