@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-The services directory is the backend with is running with express, cd to services and execute
+The services directory is the backend which is running with express, cd to services and execute
 ```
 npm install
 node services
